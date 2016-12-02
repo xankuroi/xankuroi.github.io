@@ -1,0 +1,86 @@
+.countdown{white-space:nowrap}
+.play{
+    position:fixed;
+    bottom:10px;
+    left:15px;
+    font-size:18px;
+    opacity:0.5;
+    font-weight:bold;
+    font-family:"Abel", "Arial";
+    cursor:pointer;
+}
+.play:hover{opacity:1.0;}
+.days{font-size:60px;}
+.d{font-size:20px;font-style:italic;}
+.button:hover, .button:active{ opacity:1.0; outline:0;}
+.button:focus{outline:0;}
+.button{
+    background:inherit;
+    border:none;
+    cursor:pointer;
+    float:right;
+    opacity:0.5;
+    color:inherit;
+    float:right;
+    padding-right:0;
+}
+.creds{
+    position:fixed;
+    bottom:10px;
+    right:15px;
+    font-size:12px;
+    width:110px;
+}
+.centering{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    height:40%;
+    min-width:260px;
+    position:absolute;
+
+}
+.missionlink{
+    position:fixed;
+    top:10px;
+    left:15px;
+    font-size:22px;
+}
+description{display:none};
+p {margin:0;}
+span {
+  font-family: "Zetta","abel";
+  font-size: 50px;
+}
+a{
+    color:inherit;
+    opacity:.75;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color:inherit;
+    opacity:1;
+    outline:0;
+}
+hidden{
+    display:none;
+    text-align:right;
+    float:right;
+}
+
+body {
+  font-size:30px;
+  font-family:"Abel";
+  text-align:center;
+  background:#000;
+  color:#00BFFF;
+}
+img
+{
+    max-width:400px;
+    max-height:160px;
+    width:100%;
+    height:auto;
+}
